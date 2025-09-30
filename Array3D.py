@@ -1,12 +1,12 @@
 from __future__ import annotations
 from .useful_stuff import *
 import numpy as np
-from typing import Literal, Union
+from typing import Literal
 import SimpleITK as sitk
 import os
 from skimage.transform import rotate
 
-print("testing")
+"test"
 
 class Array3D():
   def __init__(self, data):
